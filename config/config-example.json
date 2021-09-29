@@ -1,0 +1,10 @@
+{
+    "development": {
+      "username": "user name of psql database",
+      "password": "password of psql database",
+      "database": "e-commerce_development",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  }
+  
