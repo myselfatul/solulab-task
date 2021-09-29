@@ -166,12 +166,11 @@ const update = async(req, res) =>{
         //check product is updated or not
         if(productUpdate[0]){
             res.send({
-                message:'product updated successfully',
-                productUpdate
+                message:'product updated successfully'
             })
         }else{
             res.send({
-                message:'product is not available',
+                message:'product is not available'
             })
         }
         
@@ -203,8 +202,7 @@ const deleteProduct = async(req, res) =>{
             })
         }else{
             res.send({
-                message:'product is not available',
-                deleteProduct
+                message:'product is not available'
             })
         }
         
